@@ -8,7 +8,7 @@ from sklearn.svm import SVR
 from sklearn.linear_model import LinearRegression,Lasso,Ridge
 from sklearn.metrics import confusion_matrix,accuracy_score,mean_squared_error,r2_score
 
-Meta_Stock = pd.read_csv("C:\Information_Science\META.csv")
+Meta_Stock = pd.read_csv("META.csv")
 
 Meta_Stock.Close.plot(figsize=(10,10),color='r')
 plt.ylabel("{} Prices".format(Meta_Stock))
