@@ -8,7 +8,7 @@ from sklearn.svm import SVR
 from sklearn.linear_model import LinearRegression,Lasso,Ridge
 from sklearn.metrics import confusion_matrix,accuracy_score,mean_squared_error,r2_score
 
-Google_Stock = pd.read_csv("C:\Information_Science\GOOGL.csv")
+Google_Stock = pd.read_csv("GOOGL.csv")
 
 Google_Stock.Close.plot(figsize=(10,10),color='r')
 plt.ylabel("{} Prices".format(Google_Stock))
